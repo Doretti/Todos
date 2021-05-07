@@ -1,0 +1,22 @@
+{
+  "name": "EE",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "start-server": "node ./server/server.js"
+  },
+  "dependencies": {
+    "@nuxtjs/pwa": "^3.3.5",
+    "axios": "^0.21.1",
+    "core-js": "^3.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7",
+    "morgan": "^1.10.0",
+    "nuxt": "^2.15.3"
+  }
+}
